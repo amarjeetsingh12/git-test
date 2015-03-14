@@ -19,6 +19,8 @@ public class RestService extends Service<TestConfig> {
     @Override
     public void initialize(Bootstrap<TestConfig> serviceConfigurationBootstrap) {
         serviceConfigurationBootstrap.setName("Test");
+        int i=0;
+        System.out.println("value of i"+i);
 //        serviceConfigurationBootstrap.addBundle(new ConfiguredAssetsBundle("/assets/", "/"));
     }
 
