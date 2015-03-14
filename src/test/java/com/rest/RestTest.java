@@ -48,6 +48,7 @@ public class RestTest extends TestCase{
     }
     @Test
     public void testPost() throws IOException {
+        System.out.println("adada");
         Assert.assertTrue(true);
     }
      /*
