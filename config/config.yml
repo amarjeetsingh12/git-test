@@ -1,0 +1,11 @@
+http:
+  port: 9090
+  adminPort: 9091
+  rootPath: /service/*
+port: 9000
+host: localhost
+loggingConfiguration:
+  level: INFO
+#assetsConfiguration:
+#  overrides:
+#    /: /tmp/fk-digital-pdf-chunker/web/
