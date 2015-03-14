@@ -1,12 +1,8 @@
 package com.rest;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import junit.framework.Assert;
 import junit.framework.TestCase;
-import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.HttpClientBuilder;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -33,6 +29,7 @@ public class RestTest extends TestCase{
     @Override
     @BeforeClass
     public void setUp() throws Exception {
+        System.out.println("asdasd");
         super.setUp();
     }
 
