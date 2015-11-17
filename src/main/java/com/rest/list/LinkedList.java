@@ -4,6 +4,7 @@ package com.rest.list;
  * Created by amarjeet.singh on 17/12/14.
  */
 public class LinkedList {
+String s= "";
     Node head;
     public void add(Data data){
         Node newNode=new Node(null,data);
